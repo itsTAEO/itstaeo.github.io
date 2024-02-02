@@ -8,16 +8,13 @@
         body {
             margin: 0;
             overflow: hidden;
-        }
-
-        video {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            z-index: -1;
+            background: url('Gifs/GF.gif') no-repeat center center fixed; 
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
         }
 
         h1 {
@@ -25,19 +22,12 @@
             font-size: 6em;
             color: #888;
             text-align: center;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
             z-index: 1;
         }
 
         footer {
             color: #888;
-            position: absolute;
-            bottom: 20px;
-            left: 50%;
-            transform: translateX(-50%);
+            margin-top: 20px;
             z-index: 1;
         }
 
@@ -53,8 +43,6 @@
     </style>
 </head>
 <body>
-    <img src="Gifs/GF.gif" alt="Loading GIF">
-
     <h1><span>...</span> Loading 2024</h1>
     
     <footer>
@@ -62,3 +50,4 @@
     </footer>
 </body>
 </html>
+
