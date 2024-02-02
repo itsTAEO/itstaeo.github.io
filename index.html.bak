@@ -24,41 +24,6 @@
             height: 100vh;
         }
 
-        header {
-            width: 100%;
-            background-color: rgba(0, 0, 0, 0);
-            padding: 15px 0;
-            position: fixed;
-            top: 0;
-            text-align: center;
-            z-index: 2;
-            opacity: 0;
-            transition: background-color 0.5s ease, opacity 0.5s ease; /* Added transition property for background color and opacity */
-        }
-
-        header:hover {
-            background-color: rgba(0, 0, 0, 0.7); /* Updated background color on hover */
-            opacity: 1;
-        }
-
-        nav {
-            display: flex;
-            justify-content: center;
-        }
-
-        nav a {
-            margin: 0 15px;
-            font-family: 'TradeGothicW01-BoldCn20', 'Courier', Monospace;
-            color: #888; /* Updated font color to match other text */
-            text-decoration: none;
-            font-size: 1.5em;
-            transition: color 0.5s ease; /* Added transition property for text color change */
-        }
-
-        nav a:hover {
-            color: #fff; /* Updated text color on hover */
-        }
-
         h1 {
             font-family: 'TradeGothicW01-BoldCn20', 'Courier', Monospace;
             font-size: 6em;
@@ -71,7 +36,7 @@
         footer {
             font-family: 'TradeGothicW01-BoldCn20', 'Courier', Monospace;
             color: #888;
-            margin-top: 10px; /* Adjust this value to move the footer closer to the bottom */
+            margin-top: 250px; /* Adjust this value to move the footer closer to the bottom */
         }
 
         @keyframes fade {
@@ -88,26 +53,10 @@
             h1 {
                 font-size: 3em;
             }
-
-            nav {
-                margin-top: 20px;
-            }
-
-            nav a {
-                font-size: 1.2em;
-            }
         }
     </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <!-- <a href="#home">Home</a>
-            <a href="#about">About</a> -->
-            <a href="mailto:itstaeo@pm.me">Contact</a>
-        </nav>
-    </header>
-
     <h1>... Loading 2024</h1>
     
     <footer>
